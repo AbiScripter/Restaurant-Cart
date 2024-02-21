@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+
+.search-form-wrapper {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 20rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.05rem;
+  }
+
+  button {
+    font-size: 1.05rem;
+    padding: 0.2rem 0.4rem;
+    margin-left: 1rem;
+  }
+}
+
+.food-list {
+  border: 2px solid aqua;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.food-item {
+  width: 10rem;
+  border: 2px solid orangered;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+  * {
+    min-height: 25px;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    height: 1.2rem;
+  }
+
+  div {
+    min-height: 50px;
+    margin-bottom: 1rem;
+  }
+}
+
+.cart-item {
+  width: 22rem;
+  display: flex;
+  margin-bottom: 1rem;
+  border: 1px solid orangered;
+
+  span:not(:last-child) {
+    flex-basis: 8rem;
+  }
+  input {
+    width: 3rem;
+    margin-right: 2rem;
+  }
+}

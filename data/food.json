@@ -1,0 +1,289 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "name": "Butter Chicken",
+      "price": 350,
+      "ingredients": ["Chicken", "Tomato Sauce", "Cream", "Butter", "Spices"],
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Palak Paneer",
+      "price": 300,
+      "ingredients": ["Paneer", "Spinach", "Cream", "Spices", "Onion"],
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Chicken Biryani",
+      "price": 400,
+      "ingredients": ["Chicken", "Basmati Rice", "Spices", "Yogurt", "Onion"],
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "Masala Dosa",
+      "price": 200,
+      "ingredients": [
+        "Dosa Batter",
+        "Potato Filling",
+        "Spices",
+        "Chutney",
+        "Sambar"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "Chole Bhature",
+      "price": 250,
+      "ingredients": ["Chickpeas", "Flour", "Spices", "Yogurt", "Pickles"],
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "Rogan Josh",
+      "price": 380,
+      "ingredients": ["Lamb", "Yogurt", "Tomato", "Onion", "Spices"],
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "name": "Paneer Tikka",
+      "price": 280,
+      "ingredients": ["Paneer", "Bell Pepper", "Yogurt", "Spices", "Onion"],
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "Pav Bhaji",
+      "price": 220,
+      "ingredients": ["Mixed Vegetables", "Butter", "Bun", "Spices", "Onion"],
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "name": "Aloo Paratha",
+      "price": 180,
+      "ingredients": [
+        "Potatoes",
+        "Whole Wheat Flour",
+        "Spices",
+        "Butter",
+        "Yogurt"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "name": "Fish Curry",
+      "price": 420,
+      "ingredients": [
+        "Fish",
+        "Coconut Milk",
+        "Tomato",
+        "Spices",
+        "Curry Leaves"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "name": "Dosa",
+      "price": 150,
+      "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Salt"],
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "name": "Idli",
+      "price": 120,
+      "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Salt"],
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "name": "Vada",
+      "price": 100,
+      "ingredients": [
+        "Urad Dal",
+        "Black Pepper",
+        "Cumin Seeds",
+        "Curry Leaves"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "name": "Sambar",
+      "price": 80,
+      "ingredients": [
+        "Toor Dal",
+        "Mixed Vegetables",
+        "Tamarind",
+        "Sambar Powder"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "name": "Rasam",
+      "price": 70,
+      "ingredients": [
+        "Tomato",
+        "Tamarind",
+        "Cumin",
+        "Black Pepper",
+        "Curry Leaves"
+      ],
+      "quantity": 1
+    },
+
+    {
+      "id": 16,
+      "name": "Appam with Stew",
+      "price": 180,
+      "ingredients": [
+        "Rice Flour",
+        "Coconut Milk",
+        "Potatoes",
+        "Carrots",
+        "Spices"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "name": "Kerala Fish Curry",
+      "price": 250,
+      "ingredients": [
+        "Fish",
+        "Coconut Milk",
+        "Tomato",
+        "Green Chilies",
+        "Curry Leaves"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 18,
+      "name": "Puttu and Kadala Curry",
+      "price": 200,
+      "ingredients": [
+        "Rice Flour",
+        "Grated Coconut",
+        "Black Chickpeas",
+        "Coconut Milk"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 19,
+      "name": "Avial",
+      "price": 220,
+      "ingredients": [
+        "Mixed Vegetables",
+        "Coconut",
+        "Yogurt",
+        "Curry Leaves",
+        "Coconut Oil"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 21,
+      "name": "Chicken Tikka Masala",
+      "price": 320,
+      "ingredients": ["Chicken", "Yogurt", "Tomato Sauce", "Cream", "Spices"],
+      "quantity": 1
+    },
+    {
+      "id": 22,
+      "name": "Biryani",
+      "price": 350,
+      "ingredients": [
+        "Basmati Rice",
+        "Chicken/Mutton",
+        "Spices",
+        "Yogurt",
+        "Onion"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 23,
+      "name": "Paneer Butter Masala",
+      "price": 300,
+      "ingredients": ["Paneer", "Tomato Sauce", "Cream", "Butter", "Spices"],
+      "quantity": 1
+    },
+    {
+      "id": 24,
+      "name": "Samosa",
+      "price": 30,
+      "ingredients": ["Potatoes", "Peas", "Spices", "Pastry Dough"],
+      "quantity": 1
+    },
+    {
+      "id": 25,
+      "name": "Masala Chai",
+      "price": 40,
+      "ingredients": ["Tea Leaves", "Milk", "Water", "Sugar", "Spices"],
+      "quantity": 1
+    },
+    {
+      "id": 26,
+      "name": "Tandoori Chicken",
+      "price": 280,
+      "ingredients": [
+        "Chicken",
+        "Yogurt",
+        "Spices",
+        "Lemon Juice",
+        "Ginger-Garlic Paste"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 27,
+      "name": "Pani Puri",
+      "price": 20,
+      "ingredients": [
+        "Semolina Puris",
+        "Spiced Water",
+        "Tamarind Chutney",
+        "Potato",
+        "Chickpeas"
+      ],
+      "quantity": 1
+    },
+    {
+      "id": 28,
+      "name": "Gulab Jamun",
+      "price": 60,
+      "ingredients": ["Milk Solids", "Flour", "Sugar Syrup", "Cardamom"],
+      "quantity": 1
+    },
+    {
+      "id": 29,
+      "name": "Rajma Chawal",
+      "price": 200,
+      "ingredients": ["Kidney Beans", "Rice", "Tomato", "Onion", "Spices"],
+      "quantity": 1
+    },
+    {
+      "id": 30,
+      "name": "Dhokla",
+      "price": 150,
+      "ingredients": [
+        "Gram Flour",
+        "Yogurt",
+        "Turmeric",
+        "Green Chilies",
+        "Mustard Seeds"
+      ],
+      "quantity": 1
+    }
+  ]
+}
