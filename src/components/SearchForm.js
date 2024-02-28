@@ -7,6 +7,7 @@ function SearchForm({ handleSearch }) {
 
     if (event.key === "Enter") {
       handleSearch(searchQuery);
+      setSearchQuery("");
     }
   }
 

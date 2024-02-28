@@ -10,12 +10,17 @@ function HomePage({ onAddCart }) {
   console.log("render home page");
 
   function handleSearch(searchQuery) {
-    const filteredPosts = foodList.filter((food) => {
+    const filteredList = foodList.filter((food) => {
       return `${food.name.toLowerCase()} ${food.ingredients
         .join(" ")
         .toLowerCase()}`.includes(searchQuery.toLowerCase());
     });
-    setFilteredFoodList(filteredPosts);
+    console.log(filteredList);
+
+    if (filteredList.length === 0) {
+      alert("Sorry, Food not found. Please try another item.");
+    }
+    setFilteredFoodList(filteredList);
   }
 
   useEffect(() => {
