@@ -4,6 +4,11 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 
+//check https://www.npmjs.com/package/react-toastify
+//check https://fkhadra.github.io/react-toastify/introduction/
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   const [cartList, setCartList] = useState([]);
 
@@ -14,6 +19,12 @@ function App() {
         isAlreadyPresent = true;
       }
     });
+
+    if (isAlreadyPresent) {
+      toast.warn("Already in the cart ");
+    } else {
+      toast.success("Added to cart");
+    }
 
     !isAlreadyPresent && setCartList((list) => [...list, itemToAdd]);
   }
@@ -34,22 +45,36 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage onAddCart={handleAddToCart} />} />
-        <Route path="about" element={<About />} />
-        <Route
-          path="cart"
-          element={
-            <Cart
-              cartList={cartList}
-              onDeleteCart={handleDeleteFromCart}
-              onQtyChange={handleQtyChange}
-            />
-          }
-        />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage onAddCart={handleAddToCart} />} />
+          <Route path="about" element={<About />} />
+          <Route
+            path="cart"
+            element={
+              <Cart
+                cartList={cartList}
+                onDeleteCart={handleDeleteFromCart}
+                onQtyChange={handleQtyChange}
+              />
+            }
+          />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
